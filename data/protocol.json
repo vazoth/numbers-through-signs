@@ -1,0 +1,40 @@
+{
+  "sites": {
+    "qwen3-0.6b": 3,
+    "qwen3-1.7b": 4,
+    "qwen3-4b": 6,
+    "qwen3-8b": 6,
+    "qwen3-14b": 1,
+    "qwen3-30b-a3b": 3
+  },
+  "small_model_selection": "pool all four digit/word directions; maximize mean IIA then mean normalized restoration; exclude site zero",
+  "large_model_selection": "cross-format digit-word directions only; maximize mean IIA then mean normalized restoration; exclude site zero",
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20260728,
+  "bootstrap_task_offsets": {
+    "qwen3-8b": {
+      "eq_eval_number": 1
+    },
+    "qwen3-14b": {
+      "cmp_eval_number": 0,
+      "par_eval_cardinality": 1,
+      "eq_eval_cardinality": 2
+    },
+    "qwen3-30b-a3b": {
+      "eq_eval_quantity": 2,
+      "eq_eval_cardinality": 3
+    }
+  },
+  "admission": {
+    "symbol_balanced_accuracy": 0.85,
+    "count_balanced_accuracy": 0.65,
+    "each_count_class_exclusive": 0.6,
+    "minimum_eligible": 16
+  },
+  "direct_gate": {
+    "eligibility": 0.5,
+    "preservation": 0.9,
+    "iia": 0.8,
+    "gain_lower_exclusive": 0
+  }
+}

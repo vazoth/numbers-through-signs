@@ -1,0 +1,94 @@
+{
+  "seed": 20260727,
+  "values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "formats": [
+    "digit",
+    "word",
+    "run",
+    "fixed"
+  ],
+  "models": [
+    {
+      "id": "Qwen/Qwen3-0.6B-Base",
+      "short_name": "qwen3-0.6b",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "microbatch_size": 32
+    },
+    {
+      "id": "Qwen/Qwen3-1.7B-Base",
+      "short_name": "qwen3-1.7b",
+      "revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+      "microbatch_size": 16
+    },
+    {
+      "id": "Qwen/Qwen3-4B-Base",
+      "short_name": "qwen3-4b",
+      "revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+      "microbatch_size": 8
+    },
+    {
+      "id": "Qwen/Qwen3-8B-Base",
+      "short_name": "qwen3-8b",
+      "revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+      "microbatch_size": 4
+    },
+    {
+      "id": "Qwen/Qwen3-14B-Base",
+      "short_name": "qwen3-14b",
+      "revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+      "microbatch_size": 2
+    },
+    {
+      "id": "Qwen/Qwen3-30B-A3B-Base",
+      "short_name": "qwen3-30b-a3b",
+      "revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+      "microbatch_size": 1
+    }
+  ],
+  "fixed_total": 10,
+  "fixed_permutations": 8,
+  "run_variants": [
+    {
+      "item": "A",
+      "separator": " "
+    },
+    {
+      "item": "X",
+      "separator": " "
+    },
+    {
+      "item": "apple",
+      "separator": ", "
+    }
+  ],
+  "class_verbalizers": {
+    "comparison": {
+      "true": [
+        " larger"
+      ],
+      "false": [
+        " smaller"
+      ]
+    },
+    "parity": {
+      "true": [
+        " even"
+      ],
+      "false": [
+        " odd"
+      ]
+    }
+  },
+  "comparison_pair_limit_per_template": 24,
+  "parity_pair_limit_per_template": 24,
+  "causal_surface_replicates": 2
+}

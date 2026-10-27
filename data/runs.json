@@ -1,0 +1,4926 @@
+{
+  "records": [
+    {
+      "id": "r000",
+      "table": "development",
+      "retained_rows": 1176,
+      "selection": "all four symbolic directions; decoder sites only",
+      "scientific_run": {
+        "kind": "causal",
+        "model_id": "Qwen/Qwen3-0.6B-Base",
+        "model_short_name": "qwen3-0.6b",
+        "requested_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "resolved_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dtype": "torch.bfloat16",
+        "cuda_device": "NVIDIA GeForce RTX 3060",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 28,
+        "num_intervention_sites": 29,
+        "hidden_size": 1024,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r001",
+      "table": "behavior",
+      "retained_rows": 840,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "behavior",
+        "model_id": "Qwen/Qwen3-0.6B-Base",
+        "model_short_name": "qwen3-0.6b",
+        "requested_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "resolved_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 596049920
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 28,
+        "num_intervention_sites": 29,
+        "hidden_size": 1024,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r002",
+      "table": "behavior",
+      "retained_rows": 320,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "equality-behavior",
+        "model_id": "Qwen/Qwen3-0.6B-Base",
+        "model_short_name": "qwen3-0.6b",
+        "requested_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "resolved_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 596049920
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 28,
+        "num_intervention_sites": 29,
+        "hidden_size": 1024,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r003",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "comparison-admission",
+        "model_id": "Qwen/Qwen3-0.6B-Base",
+        "model_short_name": "qwen3-0.6b",
+        "requested_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd"
+      }
+    },
+    {
+      "id": "r004",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "parity-admission",
+        "model_id": "Qwen/Qwen3-0.6B-Base",
+        "model_short_name": "qwen3-0.6b",
+        "requested_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd"
+      }
+    },
+    {
+      "id": "r005",
+      "table": "screening",
+      "retained_rows": 960,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "equality-admission",
+        "model_id": "Qwen/Qwen3-0.6B-Base",
+        "model_short_name": "qwen3-0.6b",
+        "requested_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "resolved_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 596049920
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 28,
+        "num_intervention_sites": 29,
+        "hidden_size": 1024,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r006",
+      "table": "readouts",
+      "retained_rows": 528,
+      "selection": "five format pairs reported in Results and Figure 2a",
+      "scientific_run": {
+        "kind": "representations",
+        "model_id": "Qwen/Qwen3-0.6B-Base",
+        "model_short_name": "qwen3-0.6b",
+        "requested_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "resolved_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 596049920
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 28,
+        "num_intervention_sites": 29,
+        "hidden_size": 1024,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r007",
+      "table": "development",
+      "retained_rows": 2464,
+      "selection": "all four symbolic directions; decoder sites only",
+      "scientific_run": {
+        "kind": "causal",
+        "model_id": "Qwen/Qwen3-1.7B-Base",
+        "model_short_name": "qwen3-1.7b",
+        "requested_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+        "resolved_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+        "dtype": "torch.bfloat16",
+        "cuda_device": "NVIDIA GeForce RTX 3060",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 28,
+        "num_intervention_sites": 29,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r008",
+      "table": "behavior",
+      "retained_rows": 840,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "behavior",
+        "model_id": "Qwen/Qwen3-1.7B-Base",
+        "model_short_name": "qwen3-1.7b",
+        "requested_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+        "resolved_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 1720574976
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 28,
+        "num_intervention_sites": 29,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r009",
+      "table": "behavior",
+      "retained_rows": 320,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "equality-behavior",
+        "model_id": "Qwen/Qwen3-1.7B-Base",
+        "model_short_name": "qwen3-1.7b",
+        "requested_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+        "resolved_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 1720574976
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 28,
+        "num_intervention_sites": 29,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r010",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "comparison-admission",
+        "model_id": "Qwen/Qwen3-1.7B-Base",
+        "model_short_name": "qwen3-1.7b",
+        "requested_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+      }
+    },
+    {
+      "id": "r011",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "parity-admission",
+        "model_id": "Qwen/Qwen3-1.7B-Base",
+        "model_short_name": "qwen3-1.7b",
+        "requested_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+      }
+    },
+    {
+      "id": "r012",
+      "table": "screening",
+      "retained_rows": 960,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "equality-admission",
+        "model_id": "Qwen/Qwen3-1.7B-Base",
+        "model_short_name": "qwen3-1.7b",
+        "requested_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+        "resolved_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 1720574976
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 28,
+        "num_intervention_sites": 29,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r013",
+      "table": "readouts",
+      "retained_rows": 528,
+      "selection": "five format pairs reported in Results and Figure 2a",
+      "scientific_run": {
+        "kind": "representations",
+        "model_id": "Qwen/Qwen3-1.7B-Base",
+        "model_short_name": "qwen3-1.7b",
+        "requested_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+        "resolved_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 1720574976
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 28,
+        "num_intervention_sites": 29,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r014",
+      "table": "development",
+      "retained_rows": 3312,
+      "selection": "all four symbolic directions; decoder sites only",
+      "scientific_run": {
+        "kind": "causal",
+        "model_id": "Qwen/Qwen3-4B-Base",
+        "model_short_name": "qwen3-4b",
+        "requested_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+        "resolved_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+        "dtype": "torch.bfloat16",
+        "cuda_device": "NVIDIA GeForce RTX 3060",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 2560,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r015",
+      "table": "behavior",
+      "retained_rows": 840,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "behavior",
+        "model_id": "Qwen/Qwen3-4B-Base",
+        "model_short_name": "qwen3-4b",
+        "requested_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+        "resolved_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 4022468096
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 2560,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r016",
+      "table": "behavior",
+      "retained_rows": 320,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "equality-behavior",
+        "model_id": "Qwen/Qwen3-4B-Base",
+        "model_short_name": "qwen3-4b",
+        "requested_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+        "resolved_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 4022468096
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 2560,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r017",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "comparison-admission",
+        "model_id": "Qwen/Qwen3-4B-Base",
+        "model_short_name": "qwen3-4b",
+        "requested_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539"
+      }
+    },
+    {
+      "id": "r018",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "parity-admission",
+        "model_id": "Qwen/Qwen3-4B-Base",
+        "model_short_name": "qwen3-4b",
+        "requested_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539"
+      }
+    },
+    {
+      "id": "r019",
+      "table": "screening",
+      "retained_rows": 960,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "equality-admission",
+        "model_id": "Qwen/Qwen3-4B-Base",
+        "model_short_name": "qwen3-4b",
+        "requested_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+        "resolved_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 4022468096
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 2560,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r020",
+      "table": "readouts",
+      "retained_rows": 528,
+      "selection": "five format pairs reported in Results and Figure 2a",
+      "scientific_run": {
+        "kind": "representations",
+        "model_id": "Qwen/Qwen3-4B-Base",
+        "model_short_name": "qwen3-4b",
+        "requested_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+        "resolved_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 4022468096
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 2560,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r021",
+      "table": "development",
+      "retained_rows": 1584,
+      "selection": "two cross-format symbolic directions; decoder sites only",
+      "scientific_run": {
+        "kind": "causal",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "resolved_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 8190735360
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 4096,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r022",
+      "table": "behavior",
+      "retained_rows": 840,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "behavior",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "resolved_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 8190735360
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 4096,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r023",
+      "table": "behavior",
+      "retained_rows": 320,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "equality-behavior",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "resolved_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 8190735360
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 4096,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r024",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "comparison-admission",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4"
+      }
+    },
+    {
+      "id": "r025",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "parity-admission",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4"
+      }
+    },
+    {
+      "id": "r026",
+      "table": "screening",
+      "retained_rows": 960,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "equality-admission",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "resolved_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 8190735360
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 4096,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r027",
+      "table": "readouts",
+      "retained_rows": 528,
+      "selection": "five format pairs reported in Results and Figure 2a",
+      "scientific_run": {
+        "kind": "representations",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "resolved_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 8190735360
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 4096,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r028",
+      "table": "development",
+      "retained_rows": 1920,
+      "selection": "two cross-format symbolic directions; decoder sites only",
+      "scientific_run": {
+        "kind": "causal",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r029",
+      "table": "behavior",
+      "retained_rows": 840,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "behavior",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r030",
+      "table": "behavior",
+      "retained_rows": 320,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "equality-behavior",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r031",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "comparison-admission",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304"
+      }
+    },
+    {
+      "id": "r032",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "parity-admission",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304"
+      }
+    },
+    {
+      "id": "r033",
+      "table": "screening",
+      "retained_rows": 960,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "equality-admission",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r034",
+      "table": "readouts",
+      "retained_rows": 528,
+      "selection": "five format pairs reported in Results and Figure 2a",
+      "scientific_run": {
+        "kind": "representations",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r035",
+      "table": "development",
+      "retained_rows": 2160,
+      "selection": "two cross-format symbolic directions; decoder sites only",
+      "scientific_run": {
+        "kind": "causal",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r036",
+      "table": "behavior",
+      "retained_rows": 840,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "behavior",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r037",
+      "table": "behavior",
+      "retained_rows": 320,
+      "selection": "all screened wordings; digit, word and textual count",
+      "scientific_run": {
+        "kind": "equality-behavior",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r038",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "comparison-admission",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9"
+      }
+    },
+    {
+      "id": "r039",
+      "table": "screening",
+      "retained_rows": 720,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "parity-admission",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9"
+      }
+    },
+    {
+      "id": "r040",
+      "table": "screening",
+      "retained_rows": 960,
+      "selection": "all screened wordings and six principal directions",
+      "scientific_run": {
+        "kind": "equality-admission",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "r041",
+      "table": "interchange",
+      "retained_rows": 288,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "comparison",
+        "template_id": "cmp_eval_number",
+        "control": "counterfactual",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r042",
+      "table": "interchange",
+      "retained_rows": 96,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "comparison",
+        "template_id": "cmp_eval_number",
+        "control": "same-number",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r043",
+      "table": "interchange",
+      "retained_rows": 288,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "comparison",
+        "template_id": "cmp_eval_number",
+        "control": "counterfactual",
+        "donor": "exact-target"
+      }
+    },
+    {
+      "id": "r044",
+      "table": "interchange",
+      "retained_rows": 288,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "comparison",
+        "template_id": "cmp_eval_number",
+        "control": "counterfactual",
+        "donor": "wrong"
+      }
+    },
+    {
+      "id": "r045",
+      "table": "interchange",
+      "retained_rows": 1248,
+      "selection": "six principal directions; all windows; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "parity",
+        "template_id": "par_eval_cardinality",
+        "control": "counterfactual",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r046",
+      "table": "interchange",
+      "retained_rows": 416,
+      "selection": "six principal directions; all windows; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "parity",
+        "template_id": "par_eval_cardinality",
+        "control": "same-number",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r047",
+      "table": "interchange",
+      "retained_rows": 528,
+      "selection": "six principal directions; all windows; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "parity",
+        "template_id": "par_eval_cardinality",
+        "control": "counterfactual",
+        "donor": "exact-target"
+      }
+    },
+    {
+      "id": "r048",
+      "table": "interchange",
+      "retained_rows": 528,
+      "selection": "six principal directions; all windows; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "parity",
+        "template_id": "par_eval_cardinality",
+        "control": "counterfactual",
+        "donor": "wrong"
+      }
+    },
+    {
+      "id": "r049",
+      "table": "interchange",
+      "retained_rows": 288,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_cardinality",
+        "control": "counterfactual",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r050",
+      "table": "interchange",
+      "retained_rows": 192,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_cardinality",
+        "control": "same-number",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r051",
+      "table": "interchange",
+      "retained_rows": 288,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_cardinality",
+        "control": "counterfactual",
+        "donor": "exact-target"
+      }
+    },
+    {
+      "id": "r052",
+      "table": "interchange",
+      "retained_rows": 288,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "sites": [
+          1
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_cardinality",
+        "control": "counterfactual",
+        "donor": "wrong"
+      }
+    },
+    {
+      "id": "r053",
+      "table": "interchange",
+      "retained_rows": 288,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "resolved_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 8190735360
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 4096,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 6,
+        "sites": [
+          6
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_number",
+        "control": "counterfactual",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r054",
+      "table": "interchange",
+      "retained_rows": 192,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "resolved_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 8190735360
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 4096,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 6,
+        "sites": [
+          6
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_number",
+        "control": "same-number",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r055",
+      "table": "interchange",
+      "retained_rows": 288,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "resolved_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 8190735360
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 4096,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 6,
+        "sites": [
+          6
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_number",
+        "control": "counterfactual",
+        "donor": "exact-target"
+      }
+    },
+    {
+      "id": "r056",
+      "table": "interchange",
+      "retained_rows": 288,
+      "selection": "six principal directions; one-shot only; count-to-count one-shot",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-8B-Base",
+        "model_short_name": "qwen3-8b",
+        "requested_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "resolved_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 8190735360
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 36,
+        "num_intervention_sites": 37,
+        "hidden_size": 4096,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 6,
+        "sites": [
+          6
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_number",
+        "control": "counterfactual",
+        "donor": "wrong"
+      }
+    },
+    {
+      "id": "r057",
+      "table": "interchange",
+      "retained_rows": 1200,
+      "selection": "six principal directions; all windows",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 3,
+        "sites": [
+          3
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_quantity",
+        "control": "counterfactual",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r058",
+      "table": "interchange",
+      "retained_rows": 800,
+      "selection": "six principal directions; all windows",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 3,
+        "sites": [
+          3
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_quantity",
+        "control": "same-number",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r059",
+      "table": "interchange",
+      "retained_rows": 480,
+      "selection": "six principal directions; all windows",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 3,
+        "sites": [
+          3
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_quantity",
+        "control": "counterfactual",
+        "donor": "exact-target"
+      }
+    },
+    {
+      "id": "r060",
+      "table": "interchange",
+      "retained_rows": 480,
+      "selection": "six principal directions; all windows",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 3,
+        "sites": [
+          3
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_quantity",
+        "control": "counterfactual",
+        "donor": "wrong"
+      }
+    },
+    {
+      "id": "r061",
+      "table": "interchange",
+      "retained_rows": 1200,
+      "selection": "six principal directions; all windows",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 3,
+        "sites": [
+          3
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_cardinality",
+        "control": "counterfactual",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r062",
+      "table": "interchange",
+      "retained_rows": 800,
+      "selection": "six principal directions; all windows",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 3,
+        "sites": [
+          3
+        ],
+        "windows": [
+          1,
+          2,
+          4,
+          8,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_cardinality",
+        "control": "same-number",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r063",
+      "table": "interchange",
+      "retained_rows": 480,
+      "selection": "six principal directions; all windows",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 3,
+        "sites": [
+          3
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_cardinality",
+        "control": "counterfactual",
+        "donor": "exact-target"
+      }
+    },
+    {
+      "id": "r064",
+      "table": "interchange",
+      "retained_rows": 480,
+      "selection": "six principal directions; all windows",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-30B-A3B-Base",
+        "model_short_name": "qwen3-30b-a3b",
+        "requested_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "resolved_revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 30532122624
+          }
+        },
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 48,
+        "num_intervention_sites": 49,
+        "hidden_size": 2048,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 3,
+        "sites": [
+          3
+        ],
+        "windows": [
+          1,
+          "to-end"
+        ],
+        "all_sites": false,
+        "task": "equality",
+        "template_id": "eq_eval_cardinality",
+        "control": "counterfactual",
+        "donor": "wrong"
+      }
+    },
+    {
+      "id": "r065",
+      "table": "depth",
+      "retained_rows": 9600,
+      "selection": "14B comparison, six principal directions, every tested depth",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": null,
+        "sites": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "windows": [
+          "to-end"
+        ],
+        "all_sites": true,
+        "task": "comparison",
+        "template_id": "cmp_eval_number",
+        "control": "counterfactual",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r066",
+      "table": "subspace",
+      "retained_rows": 3360,
+      "selection": "14B comparison, six principal directions, all matched controls",
+      "scientific_run": {
+        "kind": "subspace-intervention",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "task": "comparison",
+        "template_id": "cmp_eval_number",
+        "control": "counterfactual",
+        "rank": 7,
+        "fit_values": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "fit_row_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215
+        ],
+        "basis_controls": [
+          "full-native",
+          "symbol-cardinal",
+          "top-variance-pca",
+          "permuted-label",
+          "random-00",
+          "random-01",
+          "random-02",
+          "random-03",
+          "random-04",
+          "random-05",
+          "random-06",
+          "random-07",
+          "random-08",
+          "random-09"
+        ]
+      }
+    },
+    {
+      "id": "r067",
+      "table": "depth",
+      "retained_rows": 3200,
+      "selection": "14B comparison, six principal directions, every tested depth",
+      "scientific_run": {
+        "kind": "quantity-windows",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": null,
+        "sites": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "windows": [
+          "to-end"
+        ],
+        "all_sites": true,
+        "task": "comparison",
+        "template_id": "cmp_eval_number",
+        "control": "same-number",
+        "donor": "source"
+      }
+    },
+    {
+      "id": "r068",
+      "table": "subspace",
+      "retained_rows": 1120,
+      "selection": "14B comparison, six principal directions, all matched controls",
+      "scientific_run": {
+        "kind": "subspace-intervention",
+        "model_id": "Qwen/Qwen3-14B-Base",
+        "model_short_name": "qwen3-14b",
+        "requested_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "resolved_revision": "0b0bd3732e2c374d483664439ea334928b65f304",
+        "dtype": "torch.bfloat16",
+        "attention_implementation": "sdpa",
+        "placement": "single",
+        "device_inventory": {
+          "all_cuda_zero": true,
+          "buffer_elements_by_device": {
+            "cuda:0": 128
+          },
+          "devices": [
+            "cuda:0"
+          ],
+          "parameter_elements_by_device": {
+            "cuda:0": 14768307200
+          }
+        },
+        "cuda_device": "NVIDIA A100 80GB PCIe",
+        "cuda_version": "12.8",
+        "torch_version": "2.11.0+cu128",
+        "num_decoder_layers": 40,
+        "num_intervention_sites": 41,
+        "hidden_size": 5120,
+        "verbalizers": {
+          "comparison": {
+            "false_ids": [
+              9155
+            ],
+            "false_text": [
+              " smaller"
+            ],
+            "true_ids": [
+              8131
+            ],
+            "true_text": [
+              " larger"
+            ]
+          },
+          "equality": {
+            "false_ids": [
+              902
+            ],
+            "false_text": [
+              " no"
+            ],
+            "true_ids": [
+              9834
+            ],
+            "true_text": [
+              " yes"
+            ]
+          },
+          "parity": {
+            "false_ids": [
+              10322
+            ],
+            "false_text": [
+              " odd"
+            ],
+            "true_ids": [
+              1496
+            ],
+            "true_text": [
+              " even"
+            ]
+          }
+        },
+        "site": 1,
+        "task": "comparison",
+        "template_id": "cmp_eval_number",
+        "control": "same-number",
+        "rank": 7,
+        "fit_values": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "fit_row_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215
+        ],
+        "basis_controls": [
+          "full-native",
+          "symbol-cardinal",
+          "top-variance-pca",
+          "permuted-label",
+          "random-00",
+          "random-01",
+          "random-02",
+          "random-03",
+          "random-04",
+          "random-05",
+          "random-06",
+          "random-07",
+          "random-08",
+          "random-09"
+        ]
+      }
+    }
+  ]
+}

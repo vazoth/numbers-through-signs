@@ -1,0 +1,104 @@
+{
+  "seed": 20260728,
+  "frozen_sites": {
+    "qwen3-0.6b": 3,
+    "qwen3-1.7b": 4,
+    "qwen3-4b": 6,
+    "qwen3-8b": 6,
+    "qwen3-14b": 1,
+    "qwen3-30b-a3b": 3
+  },
+  "equality": {
+    "verbalizers": {
+      "true": [
+        " yes"
+      ],
+      "false": [
+        " no"
+      ]
+    },
+    "templates": [
+      {
+        "id": "eq_eval_number",
+        "prefix": "Number: {expression} ;\n",
+        "suffix": "Is this number equal to {threshold}? Answer:"
+      },
+      {
+        "id": "eq_eval_quantity",
+        "prefix": "Quantity: {expression} ;\n",
+        "suffix": "Does this quantity have the same value as {threshold}? Answer:"
+      },
+      {
+        "id": "eq_eval_value",
+        "prefix": "Value: {expression} ;\n",
+        "suffix": "Is this value exactly {threshold}? Answer:"
+      },
+      {
+        "id": "eq_eval_cardinality",
+        "prefix": "Cardinality: {expression} ;\n",
+        "suffix": "Does this cardinality equal {threshold}? Answer:"
+      }
+    ],
+    "behavior_gate": {
+      "digit_min_balanced_accuracy": 0.85,
+      "word_min_balanced_accuracy": 0.85,
+      "run_min_balanced_accuracy": 0.65,
+      "each_class_min_accuracy_exclusive": 0.6,
+      "principal_direction_min_eligible": 16
+    }
+  },
+  "quantity_windows": [
+    1,
+    2,
+    4,
+    8,
+    "to-end"
+  ],
+  "prompt_admission": {
+    "digit_min_balanced_accuracy": 0.85,
+    "word_min_balanced_accuracy": 0.85,
+    "run_min_balanced_accuracy": 0.65,
+    "each_class_min_accuracy_exclusive": 0.6,
+    "principal_direction_min_eligible": 16
+  },
+  "primary_directions": [
+    [
+      "digit",
+      "word"
+    ],
+    [
+      "word",
+      "digit"
+    ],
+    [
+      "digit",
+      "run"
+    ],
+    [
+      "run",
+      "digit"
+    ],
+    [
+      "word",
+      "run"
+    ],
+    [
+      "run",
+      "word"
+    ]
+  ],
+  "subspace": {
+    "max_rank": 7,
+    "random_control_count": 10,
+    "ridge_alphas": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ]
+  },
+  "output_dir": ".cache/interventions"
+}
